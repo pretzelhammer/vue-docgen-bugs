@@ -1,0 +1,80 @@
+{
+    "exportName": "default",
+    "displayName": "Simple",
+    "description": "",
+    "tags": {},
+    "props": [
+        {
+            "name": "color",
+            "type": {
+                "name": "string"
+            },
+            "defaultValue": {
+                "func": false,
+                "value": "'#112233'"
+            }
+        },
+        {
+            "name": "disabled",
+            "type": {
+                "name": "boolean"
+            },
+            "defaultValue": {
+                "func": false,
+                "value": "false"
+            }
+        },
+        {
+            "name": "size",
+            "type": {
+                "name": "string"
+            },
+            "defaultValue": {
+                "func": false,
+                "value": "'medium'"
+            },
+            "values": [
+                "small",
+                "medium",
+                "large"
+            ]
+        }
+    ],
+    "events": [
+        {
+            "name": "eventType1"
+        },
+        {
+            "name": "eventType2",
+            "type": {
+                "names": [
+                    "undefined"
+                ]
+            }
+        },
+        {
+            "name": "eventType3",
+            "type": {
+                "names": [
+                    "undefined"
+                ]
+            }
+        },
+        {
+            "name": "eventType4",
+            "type": {
+                "names": [
+                    "undefined"
+                ]
+            }
+        },
+        {
+            "name": "eventType5",
+            "type": {
+                "names": [
+                    "undefined"
+                ]
+            }
+        }
+    ]
+}

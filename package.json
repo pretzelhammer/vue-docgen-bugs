@@ -1,0 +1,22 @@
+{
+  "name": "vue-docgen-bugs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "parse": "node parse.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pretzelhammer/vue-docgen-bugs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pretzelhammer/vue-docgen-bugs/issues"
+  },
+  "homepage": "https://github.com/pretzelhammer/vue-docgen-bugs#readme",
+  "dependencies": {
+    "vue-docgen-api": "^4.34.2"
+  }
+}
