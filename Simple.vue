@@ -1,5 +1,8 @@
 <template>
-    <div></div>
+    <div>
+        <slot />
+        <slot name="namedSlot" />
+    </div>
 </template>
 
 <script>
@@ -24,8 +27,6 @@ export default {
             this.$emit('eventType1');
             this.$emit('eventType2', true);
             this.$emit('eventType3', 'string');
-            this.$emit('eventType4', ['array']);
-            this.$emit('eventType5', {type: 'object'});
         },
     },
 };

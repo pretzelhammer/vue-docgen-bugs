@@ -2,5 +2,23 @@
     "exportName": "default",
     "displayName": "ExplicitVModel",
     "description": "",
-    "tags": {}
+    "tags": {},
+    "props": [
+        {
+            "name": "v-model",
+            "type": {
+                "name": "boolean"
+            }
+        }
+    ],
+    "events": [
+        {
+            "name": "checked:update",
+            "type": {
+                "names": [
+                    "undefined"
+                ]
+            }
+        }
+    ]
 }

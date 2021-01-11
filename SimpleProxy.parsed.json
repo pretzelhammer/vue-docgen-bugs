@@ -2,5 +2,17 @@
     "exportName": "default",
     "displayName": "SimpleProxy",
     "description": "",
-    "tags": {}
+    "tags": {},
+    "slots": [
+        {
+            "name": "default",
+            "scoped": true,
+            "bindings": [
+                {
+                    "name": "name",
+                    "title": "binding"
+                }
+            ]
+        }
+    ]
 }

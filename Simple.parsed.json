@@ -59,22 +59,14 @@
                     "undefined"
                 ]
             }
+        }
+    ],
+    "slots": [
+        {
+            "name": "default"
         },
         {
-            "name": "eventType4",
-            "type": {
-                "names": [
-                    "undefined"
-                ]
-            }
-        },
-        {
-            "name": "eventType5",
-            "type": {
-                "names": [
-                    "undefined"
-                ]
-            }
+            "name": "namedSlot"
         }
     ]
 }

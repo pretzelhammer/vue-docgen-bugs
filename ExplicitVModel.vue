@@ -8,5 +8,13 @@ export default {
         prop: 'checked',
         event: 'checked:update',
     },
+    props: {
+        checked: Boolean,
+    },
+    methods: {
+        emitEvent() {
+            this.$emit('checked:update', !this.checked);
+        },
+    },
 };
 </script>
